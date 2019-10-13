@@ -21,6 +21,6 @@ for file in os.listdir(srcFolder):
 
 # Count number of pictures
 count=0
-for i in imgs:
+for i in imgList:
     count=count+1
 print("Expect {} pictures to be moved".format(count))
